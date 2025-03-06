@@ -41,16 +41,36 @@ const Home = () => {
         <h2>A felvételt nyert tanulók névsora a nyelvi előkészítőre</h2>
     </div>
 
-   <table>
-    <tr>
-        <th>Tanuló neve</th>
-        <th>Ágazat</th>
-        <th>Összes pontszám</th>
-    </tr>
-   </table>
+    <div className="table-container" >
+      <table className="styled-table">
+        <thead>
+          <tr>
+            <th>Tanuló neve</th>
+            <th>Ágazat</th>
+            <th>Összes pontszám</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+          </tr>
+          <tr>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+          </tr>
+          <tr>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
  
- 
-</section>+
+</section>
   </>
   )
 };
